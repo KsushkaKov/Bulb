@@ -1,4 +1,3 @@
-
 function changeBackground(color) {
   document.body.style.background = color;
 }
@@ -6,5 +5,3 @@ function changeBackground(color) {
 window.addEventListener("click", function () {
   changeBackground("white");
 });
-
-
