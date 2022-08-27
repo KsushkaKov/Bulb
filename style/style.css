@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   background: #222;
 }
+
 body.on {
   background: radial-gradient(
     592px at 48.2% 50%,
@@ -17,11 +18,17 @@ body.on {
   );
 }
 
-#light {
-  width: 200px;
+div.light{
+  display: flex;
+  align-self: flex-start;
 }
 
-.wire {
+#light {
+  max-height: 100%;
+}
+
+
+/* .wire {
   position: absolute;
   left: calc(50% - 5px);
   top: 0;
@@ -29,7 +36,7 @@ body.on {
   height: 30vh;
   background: #000;
   z-index: 1;
-}
+} */
 
 .switch {
   position: absolute;
