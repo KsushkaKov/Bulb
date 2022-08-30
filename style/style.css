@@ -24,7 +24,12 @@ div.light{
 }
 
 #light {
+  opacity: 0.2;
+}
+
+.on #light {
   max-height: 100%;
+  opacity: 1;
 }
 
 
