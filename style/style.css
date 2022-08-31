@@ -23,20 +23,14 @@ div.light{
   align-self: flex-start;
 }
 
-#light {
+img {
   max-height: 100%;
+  opacity: 0.2;
 }
 
-
-/* .wire {
-  position: absolute;
-  left: calc(50% - 5px);
-  top: 0;
-  width: 8px;
-  height: 30vh;
-  background: #000;
-  z-index: 1;
-} */
+.on img {
+  opacity: 1;
+}
 
 .switch {
   position: absolute;
