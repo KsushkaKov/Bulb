@@ -1,15 +1,13 @@
-
 let btn = document.querySelector(".btn");
 let body = document.querySelector("body");
 const colorInput = document.querySelector("#color");
 
 btn.onclick = function () {
-  body.classList.toggle("on");
+  let isOn = body.classList.toggle("on");
+  if (isOn) {
+    let color = colorInput.value;
+    document.body.style.backgroundColor = color;
+  } else {
+    document.body.style.backgroundColor = "#222";
+  }
 };
-
-btn.addEventListener('click', changeColor);
-
-function changeColor() {
-  let color = colorInput.value;
-  document.body.style.backgroundColor = color;
-}

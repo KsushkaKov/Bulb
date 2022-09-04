@@ -10,11 +10,11 @@ body {
   background: #222;
 }
 
-body.on {
+body.on  {
   background: radial-gradient(
     800px at 48.2% 50%,
     rgba(248, 238, 238, 0.6) 0%,
-    rgb(21, 22, 22) 74.6%
+    rgb(68, 70, 70) 74.6%
   );
   background-position: center;
 }
