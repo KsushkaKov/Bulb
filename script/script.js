@@ -17,8 +17,10 @@ btn.onclick = function () {
 
 function checkTheme() {
   const savedTheme = localStorage.getItem("colorInput");
-  document.body.style.backgroundColor = savedTheme;
   colorInput.value = savedTheme;
+  if ((document.body.style.backgroundColor = savedTheme)) {
+    body.classList.add("on");
+  }
 }
 
 checkTheme();

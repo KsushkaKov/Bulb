@@ -11,12 +11,12 @@ body {
 }
 
 body.on {
-  background-color: #fff;
-  /* background: radial-gradient(
+  /* background-color: #fff; */
+  background: radial-gradient(
     800px at 48.2% 50%,
     rgba(248, 238, 238, 0.6) 0%,
     rgb(68, 70, 70) 74.6%
-  ); */
+  );
   background-position: center;
 }
 
