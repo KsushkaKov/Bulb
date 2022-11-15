@@ -2,6 +2,7 @@ let btn = document.querySelector(".btn");
 let body = document.querySelector("body");
 const colorInput = document.querySelector("#color");
 const mainColor = "#222";
+const lightColor = "#000000";
 
 btn.onclick = function () {
   let isOn = body.classList.toggle("on");
@@ -20,6 +21,9 @@ function checkTheme() {
   colorInput.value = savedTheme;
   if ((document.body.style.backgroundColor = savedTheme)) {
     body.classList.add("on");
+  }
+  if (savedTheme === mainColor) {
+    body.classList.remove("on");
   }
 }
 
